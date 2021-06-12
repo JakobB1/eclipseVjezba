@@ -76,21 +76,7 @@ public class Zadaci {
 		// i jedan decimalni broj
 		// Program ispisuje zbroj dva ucitana broja
 		
-		int d; 
-		double e;
-		
-		d = Integer.parseInt(
-				JOptionPane.showInputDialog("Upiši cijeli broj")
-				);
-		
-		e = Double.parseDouble(
-				JOptionPane.showInputDialog("Upiši decimalni broj")
-				);
-		
-		System.out.println(d + e);
-				
-		
-		
+
 	}
 
 }
