@@ -89,23 +89,23 @@ public class Zadaci {
 
 		if (op == 1) {
 			if (zbrajanje == (int) zbrajanje)
-				;
-			System.out.println("zbrajanje");
+
+				System.out.println("zbrajanje");
 
 		} else if (op == 2) {
 			if (oduzimanje == (int) oduzimanje)
-				;
-			System.out.println("oduzimanje");
+
+				System.out.println("oduzimanje");
 
 		} else if (op == 3) {
 			if (mnozenje == (int) mnozenje)
-				;
-			System.out.println("mnozenje");
+
+				System.out.println("mnozenje");
 
 		} else if (op == 4) {
 			if (dijeljenje == (int) dijeljenje)
-				;
-			System.out.println("dijeljenje");
+
+				System.out.println("dijeljenje");
 
 		}
 
@@ -126,11 +126,11 @@ public class Zadaci {
 
 		broj2 = Integer.parseInt(JOptionPane.showInputDialog("Drugi cijeli broj"));
 
-		
 		if (a + b > 10 && a + b < 0) {
 			System.out.println("Osijek");
 		} else {
 			System.out.println("Donji Miholjac");
+			
 		}
 	}
 }
