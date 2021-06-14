@@ -16,9 +16,9 @@ public class Zadaci {
 		a = Integer.parseInt(JOptionPane.showInputDialog("Upiši cijeli broj"));
 
 		if (a % 2 == 0) {
-			System.out.println("Broj je paran");
+			System.out.println("Osijek");
 		} else {
-			System.out.println("Broj je neparan");
+			System.out.println("Donji Miholjac");
 		}
 
 		// Zadatak 2
@@ -112,6 +112,25 @@ public class Zadaci {
 		if (op < 1 || op > 4) {
 			System.out.println("GRESKA");
 
+		}
+
+		// Zadatak 5
+		// Program unosi dva cijela broja.
+		// U sluèaju da je zbroj unesenih brojeva veæi od 10
+		// i razlika prvog i drugog manja od 0 program ispisuje
+		// Osijek, inaèe ispisuje Donji Miholjac.
+
+		int broj1, broj2, g;
+
+		broj1 = Integer.parseInt(JOptionPane.showInputDialog("Prvi cijeli broj"));
+
+		broj2 = Integer.parseInt(JOptionPane.showInputDialog("Drugi cijeli broj"));
+
+		
+		if (a + b > 10 && a + b < 0) {
+			System.out.println("Osijek");
+		} else {
+			System.out.println("Donji Miholjac");
 		}
 	}
 }
