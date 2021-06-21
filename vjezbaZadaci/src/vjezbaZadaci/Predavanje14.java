@@ -36,15 +36,35 @@ public class Predavanje14 {
 
 		for (int i = 0; i < 7; i = i + 1) {
 			System.out.println("7");
+		}
 
 		// u pravilu zadaci na razgovorima na poslu
 		// bez izvoðenja koda
+		System.out.println();
 		int t = 0, k = 1;
 		t = ++k; // t = 2, k=2
 		k = ++t - k--; // t = 3, k=1
-		System.out.println(k + t--); // 4 
+		System.out.println(k + t--); // 4
 		// DZ jos 7 zadataka
 
+		// Program ispisuje sve parne brojeve od 1 do 55
+		// u petlji obavezno koristiti vrijednost 1 i 55
+		System.out.println();
+		
+		for(int i=1;i<=55;i++) {
+		System.out.println(i);	
 		}
+		
+		// Zbrojiti prvih 100 brojeva
+		System.out.println();
+		
+		int zbroj=0; 
+		for(int i=0;i<=100;i++) {
+			zbroj+=i;
+		}
+		System.out.println(zbroj);
+		
+		//
+
 	}
 }
