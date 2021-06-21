@@ -26,6 +26,19 @@ public class Predavanje14 {
 				Double.parseDouble(JOptionPane.showInputDialog("B3")),
 				Double.parseDouble(JOptionPane.showInputDialog("B4")),
 				Double.parseDouble(JOptionPane.showInputDialog("B5")) };
-		System.out.println(b[0] + " - " + b[4]);		
+		System.out.println(b[0] + " - " + b[4]);
+
+		// Korisnik unosi cijeli broj
+		// Program ispisuje broj 7 jedno ispod drugog
+		// onoliko puta koliko je korisnik unio
+
+		int unos = 0;
+
+		for (int i = 0; i < 7; i = i + 1) {
+			System.out.println("7");
+
+			//
+
+		}
 	}
 }
