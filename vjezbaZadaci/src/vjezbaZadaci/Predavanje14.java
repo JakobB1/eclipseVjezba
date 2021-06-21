@@ -63,8 +63,5 @@ public class Predavanje14 {
 			zbroj+=i;
 		}
 		System.out.println(zbroj);
-		
-		//
-
 	}
 }
