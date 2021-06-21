@@ -37,7 +37,13 @@ public class Predavanje14 {
 		for (int i = 0; i < 7; i = i + 1) {
 			System.out.println("7");
 
-			//
+		// u pravilu zadaci na razgovorima na poslu
+		// bez izvoðenja koda
+		int t = 0, k = 1;
+		t = ++k; // t = 2, k=2
+		k = ++t - k--; // t = 3, k=1
+		System.out.println(k + t--); // 4 
+		// DZ jos 7 zadataka
 
 		}
 	}
