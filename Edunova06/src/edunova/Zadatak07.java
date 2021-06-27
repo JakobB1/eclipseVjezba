@@ -1,6 +1,6 @@
 package edunova;
 
-public class Zadatak7 {
+public class Zadatak07 {
 
 	// Prim broj je broj koji je cjelobrojno djeljiv sam s sobom
 	// i s broj 1.
