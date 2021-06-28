@@ -9,7 +9,7 @@ public class K06_Objekt {
 	public static void main(String[] args) {
 		
 		// objekt je instanca klase
-		// instanca se konstruira kljuènom rjeèju new
+		// instanca se konstruira kljuÃ¨nom rjeÃ¨ju new
 		String s  = new String("Pero");
 		//ekvivalent String s="Pero";
 		
@@ -19,7 +19,7 @@ public class K06_Objekt {
 		System.out.println("Unesi ime: ");
 		String ime = ulaz.nextLine();
 		
-		System.out.println("Ime je dugaèko: " + ime.length());
+		System.out.println("Ime je dugaÄko: " + ime.length());
 		
 		//uvijek na graju princip: clean as you go
 		ulaz.close();
