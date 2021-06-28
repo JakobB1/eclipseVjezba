@@ -1,7 +1,5 @@
 package edunova;
 
-import java.util.Arrays;
-
 public class Zadatak03 {
 	
 	// Ulaz u program je niz znakova koji sadrži
@@ -12,7 +10,7 @@ public class Zadatak03 {
 	// Sinj
 	
 	public static void main(String[] args) {
-		String s = "Osijek, Zagreb, Varaždin, Sinjski lug, Donji Miholjac";
+		String s = "Osijek, Zagreb, Varaždin,Sinj, Donji Miholjac";
 		String[] gradovi = s.split(",");
 		int najmanji=Integer.MAX_VALUE;
 		int index=0;
@@ -22,12 +20,9 @@ public class Zadatak03 {
 				index=i;
 			}
 		}
-		System.out.println(gradovi[index].trim().toUpperCase());
-		for(String grad: gradovi) {
-			if(grad.trim().length()==najmanji) {
-				System.out.println(grad.trim().toLowerCase());
-			}
+		System.out.println(gradovi[index].trim());
 		}
-		
-	}
-}
+}	
+
+
+
