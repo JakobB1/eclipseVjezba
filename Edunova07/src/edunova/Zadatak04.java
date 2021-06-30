@@ -15,6 +15,5 @@ public class Zadatak04 {
 		
 		email = imePrezime[0].substring(0,1).toLowerCase()+imePrezime[1].toLowerCase();
 		System.out.println(email + "@edunova.hr");
-		
 	}
 }
