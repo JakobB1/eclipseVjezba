@@ -61,10 +61,11 @@ public class Predavanje16 {
 
 	// primjer: Tomislav Jakopec -> tjakopec@edunova.hr
 
-	/*String ime = "Jakob Brkić";
-	String[] imePrezime = ime.split(" ");
-	String email="";
-
-	email=imePrezime[0].substring(0,1).toLowerCase()+imePrezime[1].toLowerCase();System.out.println(email+"@edunova.hr");
-    */
+	/*
+	 * String ime = "Jakob Brkić"; String[] imePrezime = ime.split(" "); String
+	 * email="";
+	 * 
+	 * email=imePrezime[0].substring(0,1).toLowerCase()+imePrezime[1].toLowerCase();
+	 * System.out.println(email+"@edunova.hr");
+	 */
 }
