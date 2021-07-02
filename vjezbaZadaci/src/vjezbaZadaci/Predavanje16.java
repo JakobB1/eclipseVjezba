@@ -25,7 +25,7 @@ public class Predavanje16 {
 
 		do {
 			sum += j;
-		} while (++j <= 100);
+		} while (++i <= 100);
 
 		System.out.println(sum);
 	}
