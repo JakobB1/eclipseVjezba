@@ -19,6 +19,7 @@ public class Predavanje14 {
 
 		System.out.println("Prvi br je " + dec[0] + " a zadnji " + dec[4]);
 
+		
 		// Drugi nacin
 
 		double[] b = { Double.parseDouble(JOptionPane.showInputDialog("B1")),
