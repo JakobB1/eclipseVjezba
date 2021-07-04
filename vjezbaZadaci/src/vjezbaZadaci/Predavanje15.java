@@ -131,6 +131,8 @@ public class Predavanje15 {
 				System.out.println("Broj nije prim");
 			}
 
+			
+			
 			// Zadatak 8
 			// Program ispisuje matricu 15 x 15
 			// tako da je svaki element matrice broj 0
