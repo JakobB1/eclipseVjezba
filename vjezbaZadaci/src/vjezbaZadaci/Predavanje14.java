@@ -48,6 +48,7 @@ public class Predavanje14 {
 		System.out.println(k + t--); // 4
 		// DZ jos 7 zadataka
 
+		
 		// Program ispisuje sve parne brojeve od 1 do 55
 		// u petlji obavezno koristiti vrijednost 1 i 55
 		System.out.println();
