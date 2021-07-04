@@ -19,7 +19,6 @@ public class Predavanje16 {
 			i++;
 		}
 
-		
 		// Zadatak 2
 
 		// s pomoću do while petlje zbrojite prvih 100 brojeva
@@ -35,6 +34,8 @@ public class Predavanje16 {
 		System.out.println(sum);
 	}
 
+	
+	
 	// Zadatak 3
 
 	// Ulaz u program je niz znakova koji sadrži
@@ -55,6 +56,8 @@ public class Predavanje16 {
 	 * System.out.println(grad.trim().toLowerCase()); } }
 	 */
 
+	
+	
 	// Zadatak 4
 
 	// Ulaz je ime i prezime
