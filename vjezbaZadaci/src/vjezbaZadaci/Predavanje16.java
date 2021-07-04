@@ -19,6 +19,7 @@ public class Predavanje16 {
 			i++;
 		}
 
+		
 		// Zadatak 2
 
 		// s pomoću do while petlje zbrojite prvih 100 brojeva
