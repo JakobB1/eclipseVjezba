@@ -1,13 +1,12 @@
 package edunova.oop;
 
-// sve klase (htjele ili ne) nasljeđuju Objecat (paket java.lang)
+
+// sve klase (htjele ili ne) nasljeđuju Object (paket java.lang)
 public class Osoba /* extends Object */{
 	
 	private int sifra;
 	private String ime;
 	private String prezime;
-	
-	
 	
 	
 	public int getSifra() {
@@ -29,7 +28,10 @@ public class Osoba /* extends Object */{
 		this.prezime = prezime;
 	}
 	
+	@Override /* ovo je anotacija - uputa 3rd party library što èiniti*/
+	public String toString() {
+		return this.ime + " " + this.prezime;
+	}
 	
 	
-
 }
