@@ -14,18 +14,4 @@ public class Racun extends Dokument {
 		super(id, iznos ,datum);
 		this.kupac = kupac;
 	}
-
-
-
-
-	public Kupac getKupac() {
-		return kupac;
-	}
-
-	public void setKupac(Kupac kupac) {
-		this.kupac = kupac;
-	}
-	
-	
-
 }

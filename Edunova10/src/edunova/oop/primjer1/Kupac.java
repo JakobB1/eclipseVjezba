@@ -24,7 +24,7 @@ public class Kupac {
 		return id;
 	}
 	public void setID(int id) {
-		id = id;
+		this.id = id;
 	}
 	public String getNaziv() {
 		return naziv;
@@ -37,6 +37,11 @@ public class Kupac {
 	}
 	public void setAdresa(String adresa) {
 		this.adresa = adresa;
+	}
+	
+	@Override
+	public String toString() {
+		return this.naziv;
 	}
 	
 	

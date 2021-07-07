@@ -11,12 +11,14 @@ public class Start {
 	
 	public Start() {
 		
-		Racun r1 = new Racun (13, 120.45, "01.05.2021", new Kupac(11, "Ivo Ivic","Kapucinska 4"));
 		
-		Primka primka = new Primka(14 ,15.67, "08.07.2021", "otpremnica 1");
+		Racun r1 = new Racun (11, 421.45, "23.04.2021", new Kupac(11, "Ivo Ivic","Kapucinska 4"));
 		
-		System.out.println();
+		Primka primka = new Primka(14 ,24.67, "08.07.2021", "otpremnica 1");
+		
+		System.out.println(primka);
 	}
+	
 	
 	public static void main(String[] args) {
 		
