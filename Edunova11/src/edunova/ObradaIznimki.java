@@ -23,6 +23,7 @@ public class ObradaIznimki {
             System.out.println(i);
             
             ulaz.close();
+            
 	}
 	
 	public static void main(String[] args) {
