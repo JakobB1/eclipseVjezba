@@ -12,11 +12,13 @@ public class RadSDatumima {
 
 		Date datumRodenja;
 		
+		
 		Calendar gc = GregorianCalendar.getInstance();
 		gc.set(Calendar.YEAR, 2021);
 		gc.set(Calendar.MONTH, 10);  // siječanj je 0
 		gc.set(Calendar.DAY_OF_MONTH, 15);
 		datumRodenja = gc.getTime();
+		
 		
 		System.out.println(datumRodenja);
 		// dokumentacija
