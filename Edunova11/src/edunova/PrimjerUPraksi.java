@@ -14,7 +14,6 @@ public class PrimjerUPraksi {
 	}
 	
 	private void ucitajGodine() {
-	
 		while(true) {
 			try {
 				osoba.setGodine(
@@ -24,11 +23,12 @@ public class PrimjerUPraksi {
 						));
 				return;
 			} catch (Exception e) {
-				
+				// TODO: handle exception
 			}
 		}
+		
 	}
-	
+
 	private void ucitajIme() {
 		String ime;
 		while(true) {
@@ -41,7 +41,7 @@ public class PrimjerUPraksi {
 			}
 			osoba.setIme(ime);
 			return;
-		}		
+		}
 	}
 
 	public static void main(String[] args) {
@@ -49,10 +49,9 @@ public class PrimjerUPraksi {
 	}
 	
 	
-	class Osoba{
+	private class Osoba{
 		private String ime;
 		private int godine;
-		
 		public String getIme() {
 			return ime;
 		}

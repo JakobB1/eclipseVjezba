@@ -9,9 +9,9 @@ public class IznimkePrimjer2 {
 			niz[3]=5;
 		} catch (NumberFormatException e) {
 			e.printStackTrace();
-		} catch(ArrayIndexOutOfBoundsException e) {
+		}catch(ArrayIndexOutOfBoundsException e) {
 			System.out.println("Ne postoji element niza");
-		} catch(Exception e) {
+		}catch(Exception e) {
 			System.out.println("Iznimka: " + e.getMessage());
 		}
 		

@@ -10,20 +10,20 @@ public class ObradaIznimki {
 		
 		int i=0;
 		while(true) {
-			System.out.println("Daj broj: ");
+			System.out.print("Daj broj: ");
 			try {
 				i = Integer.parseInt(ulaz.nextLine());
 				break;
 			}catch(NumberFormatException e) {
 				System.out.println("Nisi mi dao cijeli broj");
 			}
-	
-		    }
+
+		}
+				
+		System.out.println(i);
 		
-            System.out.println(i);
-            
-            ulaz.close();
-            
+		
+		ulaz.close();
 	}
 	
 	public static void main(String[] args) {
