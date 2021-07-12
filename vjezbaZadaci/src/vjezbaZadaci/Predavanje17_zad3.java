@@ -2,6 +2,7 @@ package vjezbaZadaci;
 
 public class Predavanje17_zad3 {
 	
+	// Zadatak 3
 	// Kreirajte metodu razlika tipa int koja
 	// prima dva parametra tipa String
 	// Metoda vraæa razliku prvog i drugog primljenog broja
