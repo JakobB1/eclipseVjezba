@@ -1,6 +1,6 @@
 package vjezbaZadaci;
 
-public class Predavanje17_zad1 {
+public class Predavanje17_zad01 {
 	
 	// Zadatak 1
 	// Kreirati metodu tipa int naziva suma 
