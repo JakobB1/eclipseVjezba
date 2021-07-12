@@ -2,7 +2,7 @@ package vjezbaZadaci;
 
 import java.util.Arrays;
 
-public class Predavanje17_zad2 {
+public class Predavanje17_zad02 {
 	
 	// Zadatak 2
 	// Kreirajte metodu slucajniBrojevi 
