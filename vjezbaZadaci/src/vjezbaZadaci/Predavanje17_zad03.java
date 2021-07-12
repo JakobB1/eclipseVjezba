@@ -1,6 +1,6 @@
 package vjezbaZadaci;
 
-public class Predavanje17_zad3 {
+public class Predavanje17_zad03 {
 	
 	// Zadatak 3
 	// Kreirajte metodu razlika tipa int koja
@@ -17,7 +17,7 @@ public class Predavanje17_zad3 {
 	
 	public static void main(String[] args) {
 		
-		int c = Predavanje17_zad3.razlika("10", "7");
+		int c = Predavanje17_zad03.razlika("10", "7");
 		
 		System.out.println(c);
 	}
