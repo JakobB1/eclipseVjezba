@@ -1,6 +1,6 @@
 package vjezbaZadaci;
 
-public class Predavanje17_zad4 {
+public class Predavanje17_zad04 {
 	
 	// Zadatak 4
 	// Kreirajte metodu aritmetièkas sredina tipa float
