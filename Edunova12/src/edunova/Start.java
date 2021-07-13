@@ -1,7 +1,11 @@
 package edunova;
 
+import java.util.List;
+
 public class Start {
 	
+	private List<Smjer> smjerovi;
+ 	
 	public Start() {
 	
 	}
