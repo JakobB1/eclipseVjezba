@@ -12,11 +12,12 @@ public class Ulaz {
 		int broj=0;
 		Scanner ulaz = new Scanner(System.in);
 		while(true) {
-			System.out.println(poruka);
+			System.out.print(poruka);
 			try {
 				broj = Integer.parseInt(ulaz.nextLine());
 				if (broj<min || broj>max) {
-					System.out.println(greska);
+					System.out.println("Broj ne smije biti manji od " + min
+							+ " ili veći od " + max);
 					continue;
 				}
 				break;

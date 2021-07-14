@@ -25,7 +25,19 @@ public class Start {
 	}
 
 	private void ucitajGlavnuAkciju() {
+		switch (Ulaz.ucitajInt("Odaberite stavku: ", "Nista unijeli cijeli broj", 1, 5)) {		
+		case 1:
+			smjerIzbornik();
+			break;
+		case 5: 
+			System.out.println("Program je završio, doviđenja!");
+			return;
+		}
 		
+	}
+
+	private void smjerIzbornik() {
+		// TODO Auto-generated method stub
 		
 	}
 
