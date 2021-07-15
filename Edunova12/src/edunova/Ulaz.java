@@ -1,9 +1,12 @@
 package edunova;
 
 
-import javax.swing.JOptionPane;
+import java.util.Scanner;
+
 
 public class Ulaz {
+	
+	public static Scanner scanner;
 	
 	public static int ucitajInt(
 			String poruka, 
@@ -12,13 +15,11 @@ public class Ulaz {
 			int max) {
 		int broj=0;
 		while(true) {
-			System.out.println(poruka);
+			System.out.print(poruka);
 			try {
 				
 				broj = Integer.parseInt(
-						// Zamjeniti s Scanner
-						JOptionPane.showInputDialog(poruka)
-						);
+						scanner.nextLine());
 				if (broj<min || broj>max) {
 					System.out.println("Broj ne smije biti manji od " + min
 							+ " ili veæi od " + max);
@@ -37,7 +38,8 @@ public class Ulaz {
 	public static String ucitajString(String poruka,String greska) {
 		String s="";
 		while(true) {
-			s = JOptionPane.showInputDialog(poruka);
+			System.out.print(poruka);
+			s = scanner.nextLine();
 			if(s.trim().equals("")){
 				System.out.println(greska);
 				continue;
@@ -57,13 +59,12 @@ public class Ulaz {
 			double max) {
 		double broj=0;
 		while(true) {
-			System.out.println(poruka);
+			System.out.print(poruka);
 			try {
 				
 				broj = Double.parseDouble(
 						// Zamjeniti s Scanner
-						JOptionPane.showInputDialog(poruka)
-						);
+						scanner.nextLine());
 				if (broj<min || broj>max) {
 					System.out.println("Broj ne smije biti manji od " + min
 							+ " ili veæi od " + max);
@@ -82,7 +83,8 @@ public class Ulaz {
 	public static boolean ucitajBoolean(String poruka, String greska) {
 		String s;
 		while(true) {
-			s=JOptionPane.showInputDialog(poruka);
+			System.out.print(poruka);
+			s=scanner.nextLine();
 			if(s.trim().toLowerCase().equals("da")) {
 				return true;
 			}

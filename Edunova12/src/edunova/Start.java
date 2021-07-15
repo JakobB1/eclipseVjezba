@@ -2,6 +2,7 @@ package edunova;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class Start {
 	
@@ -9,6 +10,7 @@ public class Start {
 	
 	public Start() {
 		smjerovi = new ArrayList<Smjer>();
+		Ulaz.scanner=new Scanner(System.in);
 		glavniIzbornik();
 	}
 	
@@ -65,7 +67,7 @@ public class Start {
 
 	private void smjerBrisanje() {
 		smjerStavke("Trenutno dostupno u aplikaciji");
-		int redniBroj = Ulaz.ucitajInt("Odaberite redni broj za promjenu", 
+		int redniBroj = Ulaz.ucitajInt("Odaberite redni broj za brisanje: ", 
 				"Niste unijeli cijeli broj", 1, smjerovi.size());
 		smjerovi.remove(redniBroj-1);
 		smjerIzbornik();
@@ -73,7 +75,7 @@ public class Start {
 
 	private void smjerPromjena() {
 		smjerStavke("Trenutno dostupno u aplikaciji");
-		int redniBroj = Ulaz.ucitajInt("Odaberite redni broj za promjenu", 
+		int redniBroj = Ulaz.ucitajInt("Odaberite redni broj za promjenu: ", 
 				"Niste unijeli cijeli broj", 1, smjerovi.size());
 		Smjer smjerZaPromjenu = smjerovi.get(redniBroj-1);
 		smjerZaPromjenu = smjerPostaviVrijednosti(smjerZaPromjenu);
@@ -89,17 +91,17 @@ public class Start {
 	}
 
 	private Smjer smjerPostaviVrijednosti(Smjer s) {
-		s.setSifra(Ulaz.ucitajInt("Unesi šifru smjera", 
+		s.setSifra(Ulaz.ucitajInt("Unesi šifru smjera: ", 
 				"Niste unijeli cijeli broj", 1, 
 				Integer.MAX_VALUE));
 		s.setNaziv(Ulaz.ucitajString("Unesi naziv smjera: ",
 				"Naziv obavezno"));
 		s.setTrajanje(Ulaz.ucitajInt("Unesi trajanje: ",
 				"Trajanje nije cijeli broj", 1, 300));
-		s.setCijena(Ulaz.ucitajDouble("Unesi cijenu", 
+		s.setCijena(Ulaz.ucitajDouble("Unesi cijenu: ", 
 				"Cijena mora biti decimalni broj", 0, 100000));
 		s.setCertifikat(Ulaz.ucitajBoolean("Unesite oznaku da li je "
-				+ "smjer certificiran", "Kriva vrijednost"));
+				+ "smjer certificiran: ", "Kriva vrijednost"));
 		return s;
 	}
 
