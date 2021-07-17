@@ -20,4 +20,3 @@ public class Zadatak01 {
 		System.out.println(suma(niz));
 	}
 }
-
