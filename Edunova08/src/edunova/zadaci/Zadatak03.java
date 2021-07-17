@@ -20,5 +20,4 @@ public class Zadatak03 {
 		
 		System.out.println(c);
 	}
-
 }
