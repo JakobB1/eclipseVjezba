@@ -22,7 +22,7 @@ public class Ulaz {
 						scanner.nextLine());
 				if (broj<min || broj>max) {
 					System.out.println("Broj ne smije biti manji od " + min
-							+ " ili veæi od " + max);
+							+ " ili veï¿½i od " + max);
 					continue;
 				}
 				break;
@@ -67,7 +67,7 @@ public class Ulaz {
 						scanner.nextLine());
 				if (broj<min || broj>max) {
 					System.out.println("Broj ne smije biti manji od " + min
-							+ " ili veæi od " + max);
+							+ " ili veï¿½i od " + max);
 					continue;
 				}
 				break;
@@ -94,6 +94,4 @@ public class Ulaz {
 			System.out.println(greska + " (unos da/ne)");
 		}
 	}
-	
-	
 }
