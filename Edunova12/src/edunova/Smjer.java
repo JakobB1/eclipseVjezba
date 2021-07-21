@@ -37,7 +37,4 @@ public class Smjer {
 	public void setCertifikat(boolean certifikat) {
 		this.certifikat = certifikat;
 	}
-	
-	
-
 }
