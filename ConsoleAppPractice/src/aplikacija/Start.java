@@ -419,7 +419,7 @@ public class Start {
 	}
 	
     ///////////
-    //// KRAJ RACUN
+    //// KRAJ PROIZVOD
     ///////////
 	
 	public static void main(String[] args) {
